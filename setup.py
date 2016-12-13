@@ -9,7 +9,7 @@ long_description = 'Autosub is a utility for automatic speech recognition and su
 
 setup(
     name='autosub',
-    version='0.3.4',
+    version='0.3.11',
     description='Auto-generates subtitles for any video or audio file',
     long_description=long_description,
     author='Anastasis Germanidis',
@@ -18,7 +18,7 @@ setup(
     packages=['autosub'],
     scripts=['bin/autosub'],
     install_requires=[
-        'goslate>=1.4.0',
+        'google-api-python-client>=1.4.2',
         'requests>=2.3.0',
         'pysrt>=1.0.1',
         'progressbar>=2.3'
